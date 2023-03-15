@@ -28,8 +28,8 @@ class Home extends Component {
 		return (
 			<div className="mainContainer">
 				<div>
-					<h1 style={{ fontSize: "45px", fontWeight: "700", color: "#f7f8fc" }}>Video-Call App</h1>
-					{/* <p style={{ fontWeight: "400" }}>Microsoft Teams clone submission for Microsoft Engage 2021</p> */}
+					<h1 style={{ fontSize: "45px", fontWeight: "700", color: "#f7f8fc" }}>Meet X</h1>
+					
 				</div>
 
 				<div style={{
@@ -41,11 +41,7 @@ class Home extends Component {
 					<Button variant="contained" color="primary" onClick={this.join} style={{ margin: "20px" }}><VideoCallIcon />{" "}{" "}{" "}New Meeting</Button>
 				</div>
 				<div style={{ fontSize: "14px", fontWeight: "500", background: "#4b53bc", textAlign: "center", margin: "auto", marginBottom: "10px", marginTop: "100px" }}>
-					{/* Source code:
-					<IconButton style={{ color: "black" }} onClick={() => window.open(
-						"https://github.com/snehapandey2000/MicrosoftEngageTask", "_blank")}>
-						<GitHubIcon />
-					</IconButton> */}
+					
 				</div>
 			</div>
 		)
