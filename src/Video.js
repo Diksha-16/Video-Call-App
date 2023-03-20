@@ -22,7 +22,7 @@ import Modal from 'react-bootstrap/Modal'
 import 'bootstrap/dist/css/bootstrap.css'
 import "./Video.css"
 
-const server_url = process.env.NODE_ENV === 'production' ? 'https://my-microsoft-teams-clone.herokuapp.com/' : "http://localhost:4001"
+const server_url = process.env.NODE_ENV === 'production' ? 'https://video-call-bb3h.onrender.com/' : "http://localhost:4001"
 
 var connections = {}
 const peerConnectionConfig = {
