@@ -26,7 +26,7 @@ import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Video.css";
 
-// 6. Lmao 3 UI Libraries in One Project: MaterialUI, Bootstrap, and Ant Design.
+// 6.3 UI Libraries in One Project: MaterialUI, Bootstrap, and Ant Design.
 
 // 7. Sockets Backend Server URL
 const server_url =
